@@ -11,4 +11,4 @@ My name is Devom Brahmbhatt and I’m the Head of Development of ImpactCode a 50
 <img src="Images/SWIFT.png" alt="Swift" width="200"/>
 <img src="Images/C.png" alt="C" width="200"/>
 <img src="Images/C++.png" alt="C++" width="200"/>
-<img src="Images/C#.png" alt="C#" width="200"/>
+<img src="Images/C_Sharp.png" alt="C#" width="200"/>
