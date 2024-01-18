@@ -9,9 +9,11 @@ My name is Devom Brahmbhatt and I’m the Head of Development of ImpactCode a 50
 <img src="Images/JS.png" alt="JavaScript" width="95"/>
 <img src="Images/REACT.png" alt="ReactJS" width="95"/>
 <img src="Images/PYTHON.png" alt="Python" width="95"/>
+<!--
 <img src="Images/SWIFT.png" alt="Swift" width="95"/>
 <img src="Images/C.png" alt="C" width="95"/>
 <img src="Images/C++.png" alt="C++" width="95"/>
 <img src="Images/C_Sharp.png" alt="C#" width="95"/>
 <img src="Images/PHP.png" alt="PHP" width="95"/>
+-->
 </div>
