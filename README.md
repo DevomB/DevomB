@@ -19,4 +19,4 @@ My name is Devom Brahmbhatt and I’m the Head of Development of ImpactCode a 50
 
 <h3>Top Languages on GitHub</h3>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DevomB&layout=compact&theme=midnight-purple&hide=css)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DevomB&layout=compact&theme=midnight-purple&hide=css,HTML)
