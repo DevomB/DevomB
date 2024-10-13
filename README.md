@@ -1,21 +1,7 @@
-<h2>What's up <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" vertical-align="baseline"></h2>
-My name is Devom Brahmbhatt and I’m the Head of Development of ImpactCode a 501(c) non-profit. I started programming at a young age and from there, my love for this grew. On this page, you will find all of the code for all of my side projects.
+<h1>What's up <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" vertical-align="baseline"></h1>
+<p>My name is Devom Brahmbhatt, and I am a passionate software engineer who actively engages in freelance and community-driven projects. Over the years, I’ve developed a diverse set of skills in various programming languages and technologies, allowing me to bring innovative solutions to the table. Whether it’s building applications, teaching others to code, or working alongside local organizations, my goal is to use my expertise to make a tangible impact in my community. I believe that technology, when used effectively, can drive real change, and I strive to make that difference through every project I take on.</p>
   
-<h3>Languages that I use<h3>
-<div style="display: inline;">
-<img src="Images/HTML.png" alt="HTML" width="95"/>
-<img src="Images/CSS.png" alt="CSS" width="95"/>
-<img src="Images/JS.png" alt="JavaScript" width="95"/>
-<img src="Images/REACT.png" alt="ReactJS" width="95"/>
-<img src="Images/PYTHON.png" alt="Python" width="95"/>
-<!--
-<img src="Images/SWIFT.png" alt="Swift" width="95"/>
-<img src="Images/C.png" alt="C" width="95"/>
-<img src="Images/C++.png" alt="C++" width="95"/>
-<img src="Images/C_Sharp.png" alt="C#" width="95"/>
-<img src="Images/PHP.png" alt="PHP" width="95"/>
--->
-</div>
+<h2>Languages that I use</h2>
 
 <h3>Top Languages on GitHub</h3>
 
