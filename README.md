@@ -1,8 +1,26 @@
-<h1>What's up <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" vertical-align="baseline"></h1>
-<p>My name is Devom Brahmbhatt, and I am a passionate software engineer who actively engages in freelance and community-driven projects. Over the years, I’ve developed a diverse set of skills in various programming languages and technologies, allowing me to bring innovative solutions to the table. Whether it’s building applications, teaching others to code, or working alongside local organizations, my goal is to use my expertise to make a tangible impact in my community. I believe that technology, when used effectively, can drive real change, and I strive to make that difference through every project I take on.</p>
-  
-<h2>Languages that I use</h2>
+## Devom Brahmbhatt
 
-<h3>Top Languages on GitHub</h3>
+Software engineer in **Los Angeles**. I build full-stack tools, mentor when I can, and ship with Docker and CI.
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DevomB&layout=compact&theme=midnight-purple&hide=css,HTML)
+Most of my cooler stuff lives in org repos.
+
+![](https://komarev.com/ghpvc/?username=DevomB&color=grey)
+
+### Stack
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/programming%20languages/javascript.svg" width="42" height="42" alt="JavaScript" title="JavaScript"/>
+  <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/programming%20languages/typescript.svg" width="42" height="42" alt="TypeScript" title="TypeScript"/>
+  <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/programming%20languages/python.svg" width="42" height="42" alt="Python" title="Python"/>
+  <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/programming%20languages/go.svg" width="42" height="42" alt="Go" title="Go"/>
+  <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/frameworks/react.svg" width="42" height="42" alt="React" title="React"/>
+  <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/frameworks/nodejs.svg" width="42" height="42" alt="Node.js" title="Node.js"/>
+  <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/databases/postgresql.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL"/>
+  <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/cloud/docker.svg" width="42" height="42" alt="Docker" title="Docker"/>
+  <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/cloud/github.svg" width="42" height="42" alt="GitHub Actions" title="GitHub Actions"/>
+  <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/others/git.svg" width="42" height="42" alt="Git" title="Git"/>
+</p>
+
+### Connect
+
+[![GitHub](https://img.shields.io/badge/GitHub-@DevomB-181717?style=flat&logo=github)](https://github.com/DevomB)
