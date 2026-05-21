@@ -66,6 +66,7 @@ Reach out via [LinkedIn](https://www.linkedin.com/in/devomb) or [devomb.com](htt
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-000000?style=flat&logo=openrouter&logoColor=white)
 
 **Databases & messaging**
 
