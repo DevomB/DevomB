@@ -1,8 +1,14 @@
+<div align="center">
+
 # Devom Brahmbhatt
 
-**Trader · Software Engineer · AI Researcher** · Greater Los Angeles Area
+**Trader · Software Engineer · AI Researcher** in the Greater Los Angeles Area
 
-[![Open to opportunities](https://img.shields.io/badge/Open_to-opportunities-22c55e?style=flat-square)](https://www.linkedin.com/in/devomb)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=DevomB&theme=onedark&no-frame=true&column=-1&margin-w=8&margin-h=8&rank=SECRET,SSS,SS,S,AAA,AA,A&title=-Issues,-PullRequest,-Reviews" alt="GitHub trophies" />
+</p>
+
+</div>
 
 ## About
 
@@ -72,14 +78,10 @@ I work in English, Gujarati, and Hindi. **Open to new opportunities**—reach ou
 ---
 
 <p align="left">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=DevomB&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=DevomB&theme=dark&hide_border=true" alt="GitHub streak" />
+  <img height="165" src="https://github-readme-stats.shion.dev/api?username=DevomB&show_icons=true&theme=dark&hide_border=true" alt="GitHub stats" />
+  <img height="165" src="https://streak-stats.demolab.com/?user=DevomB&theme=dark&hide_border=true" alt="GitHub streak" />
 </p>
 
 <p align="left">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevomB&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=DevomB&theme=onedark&no-frame=true&column=-1&margin-w=8&margin-h=8&rank=SECRET,SSS,SS,S,AAA,AA,A&title=-Issues,-PullRequest,-Reviews" alt="GitHub trophies" />
+  <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=DevomB&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
 </p>
