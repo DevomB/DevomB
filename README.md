@@ -108,14 +108,3 @@ Reach out via [LinkedIn](https://www.linkedin.com/in/devomb) or [devomb.com](htt
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-in%2Fdevomb-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/devomb)
 [![Website](https://img.shields.io/badge/Website-devomb.com-000?style=flat)](https://devomb.com)
-
----
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevomB&theme=react-dark&hide_border=true&area=true&custom_title=GitHub%20Activity" alt="GitHub activity graph" />
-</p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.shion.dev/api?username=DevomB&show_icons=true&theme=dark&hide_border=true&hide_rank=true&hide=stars,issues,contribs&include_all_commits=true" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=DevomB&layout=donut&theme=dark&hide_border=true&langs_count=6&custom_title=Core%20Languages&hide=css,scss,html,javascript,cmake,makefile,dockerfile,qmake&size_weight=0.35&count_weight=0.65&exclude_repo=Ayaan-Sidky-Website,Calcify,CIS-17A,CIS-17B-S25_Introduction,CIS-5-Code,CIS17B-S25-33477-Assignment1,CIS17B-S25-33477-Assignment2,CIS17B-S25-33477-Assignment3,CIS17B-S25-33477-Assignment4,CIS17B-S25-33477-Assignment5,CIS17B-S25-33477-Assignment6,Coding-Club-Site,Coding-Projects,DevomB,Disaster-Tracker,Door-Closer,Game_App_Dev,Historical-Art-Gallery,OCSEF-Proj-2025,PCB-Business-Card,Poker-Calculations-Website,Portfoilo-Website,SERP-DB,SERP-DB-API,Spiderman,SyncX,Taher-App,Universal-Prettier-Configs,vmm-hlth-web,VMM-Website-2" alt="Core languages" />
-</p>
