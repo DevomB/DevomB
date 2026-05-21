@@ -2,7 +2,7 @@
 
 # Devom Brahmbhatt
 
-**Trader · Software Engineer · AI Researcher** in the Greater Los Angeles Area
+**Trader · Software Engineer · AI Researcher**
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=DevomB&theme=aura&no-frame=true&column=-1&margin-w=8&margin-h=8&rank=SECRET,SSS,SS,S,AAA,AA,A&title=-Issues,-PullRequest,-Reviews" alt="GitHub trophies" />
