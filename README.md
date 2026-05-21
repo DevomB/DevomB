@@ -108,3 +108,9 @@ Reach out via [LinkedIn](https://www.linkedin.com/in/devomb) or [devomb.com](htt
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-in%2Fdevomb-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/devomb)
 [![Website](https://img.shields.io/badge/Website-devomb.com-000?style=flat)](https://devomb.com)
+
+---
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevomB&theme=react-dark&hide_border=true&area=true&height=300&custom_title=GitHub%20Activity" alt="GitHub activity graph" />
+</p>
