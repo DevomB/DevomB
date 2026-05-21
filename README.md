@@ -6,11 +6,11 @@
 
 ## About
 
-Devom Brahmbhatt is a software engineer based in the Greater Los Angeles Area with six years of hands-on experience across **quantitative trading**, **software engineering**, and **machine learning research**. He ships full-stack systems with disciplined tooling—Docker, GitHub Actions, and production-minded CI—and builds for correctness under load, from trading infrastructure to ML research pipelines. That approach shows up in product and research-style work, including an internship at **Drip** in a **Y Combinator** environment.
+I'm a software engineer based in the Greater Los Angeles Area with six years of hands-on experience across **quantitative trading**, **software engineering**, and **machine learning research**. I ship full-stack systems with disciplined tooling—Docker, GitHub Actions, and production-minded CI—and build for correctness under load, from trading infrastructure to ML research pipelines. That shows up in product and research-style work, including an internship at **Drip** in a **Y Combinator** environment.
 
-His recent work centers on [**Poker-Calculations**](https://github.com/DevomB/Poker-Calculations), an NL Hold'em toolkit (hands, equity, pot/chip math, ICM) built with C++20 and N-API, and [**Athenas-Pallas**](https://github.com/DevomB/Athenas-Pallas), an open-source **Rust** framework for event-driven algorithmic trading. He contributes to the Rust ecosystem and [**Hack Club**](https://hackclub.com/) projects, with notable work on [**Hack Club Burrow**](https://github.com/hackclub/burrow), a firewall penetration utility.
+My recent work centers on [**Poker-Calculations**](https://github.com/DevomB/Poker-Calculations), an NL Hold'em toolkit (hands, equity, pot/chip math, ICM) built with C++20 and N-API, and [**Athenas-Pallas**](https://github.com/DevomB/Athenas-Pallas), an open-source **Rust** framework for event-driven algorithmic trading. I contribute to the Rust ecosystem and [**Hack Club**](https://hackclub.com/) projects, with notable work on [**Hack Club Burrow**](https://github.com/hackclub/burrow), a firewall penetration utility.
 
-He works in English, Gujarati, and Hindi. **Open to new opportunities**—reach out via [LinkedIn](https://www.linkedin.com/in/devomb) or [devomb.com](https://devomb.com).
+I work in English, Gujarati, and Hindi. **Open to new opportunities**—reach out via [LinkedIn](https://www.linkedin.com/in/devomb) or [devomb.com](https://devomb.com).
 
 ## Currently building
 
@@ -58,7 +58,7 @@ He works in English, Gujarati, and Hindi. **Open to new opportunities**—reach 
 
 ## Open source
 
-- Contributes to the **Rust** ecosystem and **Hack Club** projects
+- I contribute to the **Rust** ecosystem and **Hack Club** projects
 - [**Hack Club Burrow**](https://github.com/hackclub/burrow) — open-source firewall penetration utility ([burrow.rs](https://burrow.rs))
 
 ## Connect
@@ -80,6 +80,6 @@ He works in English, Gujarati, and Hindi. **Open to new opportunities**—reach 
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevomB&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
 </p>
 
-<p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=DevomB&theme=onedark&no-frame=true&column=4&margin-w=8&margin-h=8" alt="GitHub trophies" />
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=DevomB&theme=onedark&no-frame=true&column=-1&margin-w=8&margin-h=8&rank=SECRET,SSS,SS,S,AAA,AA,A&title=-Issues,-PullRequest,-Reviews" alt="GitHub trophies" />
 </p>
