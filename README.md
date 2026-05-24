@@ -12,9 +12,7 @@
 
 ## About
 
-I'm a software engineer based in the Greater Los Angeles Area with six years of hands-on experience across **quantitative trading**, **software engineering**, and **machine learning research**. I ship full-stack systems with disciplined tooling—Docker, GitHub Actions, and production-minded CI—and build for correctness under load, from trading infrastructure to ML research pipelines. That shows up in product and research-style work, including an internship at **Drip** in a **Y Combinator** environment.
-
-My recent work centers on [**Poker-Calculations**](https://github.com/DevomB/Poker-Calculations), an NL Hold'em toolkit (hands, equity, pot/chip math, ICM) built with C++20 and N-API, and [**Athenas-Pallas**](https://github.com/DevomB/Athenas-Pallas), an open-source **Rust** framework for event-driven algorithmic trading. I contribute to the Rust ecosystem and [**Hack Club**](https://hackclub.com/) projects, with notable work on [**Hack Club Burrow**](https://github.com/hackclub/burrow), a firewall penetration utility.
+I'm a software engineer based in the Greater Los Angeles Area with six years of hands-on experience across **quantitative trading**, **software engineering**, and **machine learning research**. I ship full-stack systems with disciplined tooling—Docker, GitHub Actions, and production-minded CI—and build for correctness under load, from trading infrastructure to ML research pipelines. 
 
 Reach out via [LinkedIn](https://www.linkedin.com/in/devomb) or [devomb.com](https://devomb.com).
 
