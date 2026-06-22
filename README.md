@@ -16,11 +16,6 @@ I'm a software engineer based in the Greater Los Angeles Area with six years of 
 
 Reach out via [LinkedIn](https://www.linkedin.com/in/devomb) or [devomb.com](https://devomb.com).
 
-## Currently building
-
-- [**Poker-Calculations**](https://github.com/DevomB/Poker-Calculations) — NL Hold'em NPM toolkit: hands, equity, pot/chip math, ICM (C++20, N-API)
-- [**Athenas-Pallas**](https://github.com/DevomB/Athenas-Pallas) — Open-source Rust framework for event-driven algorithmic trading
-
 ## Education
 
 - **Associate of Science, Mathematics** — Norco College
