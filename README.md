@@ -91,12 +91,6 @@ Reach out via [LinkedIn](https://www.linkedin.com/in/devomb) or [devomb.com](htt
 ![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=flat&logo=postman&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
 
-
-## Open source
-
-- I contribute to the **Rust** ecosystem and **Hack Club** projects
-- [**Hack Club Burrow**](https://github.com/hackclub/burrow) — open-source firewall penetration utility ([burrow.rs](https://burrow.rs))
-
 ## Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-in%2Fdevomb-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/devomb)
