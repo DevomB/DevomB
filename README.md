@@ -18,8 +18,8 @@ Reach out via [LinkedIn](https://www.linkedin.com/in/devomb) or [devomb.com](htt
 
 ## Education
 
-- **Associate of Science, Mathematics** — Norco College
-- **C++ Programming Certificate** — Norco College
+- **Associate of Science, Mathematics**
+- **C++ Programming Certificate**
 
 ## Tech stack
 
