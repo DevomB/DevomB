@@ -14,7 +14,7 @@
 
 I'm a software engineer based in the Greater Los Angeles Area with six years of hands-on experience across **quantitative trading**, **software engineering**, and **machine learning research**. I ship full-stack systems with disciplined tooling—Docker, GitHub Actions, and production-minded CI—and build for correctness under load, from trading infrastructure to ML research pipelines. 
 
-Reach out via [LinkedIn](https://www.linkedin.com/in/devomb) or [devomb.com](https://devomb.com).
+Reach out via [LinkedIn](https://www.linkedin.com/in/devomb) or [DevomB.com](https://devomb.com).
 
 ## Education
 
