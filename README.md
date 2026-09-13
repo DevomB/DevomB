@@ -5,13 +5,13 @@
 **Trader · Software Engineer · AI Researcher**
 
 <p align="center">
-  <img src="https://github-trophies.devomb.com/?username=DevomB\&theme=aura\&no-frame=true\&column=1\&rank=SECRET,SSS,SS,S,AAA,AA,A\&title=MultiLanguage" alt="MultiLanguage trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB\&theme=aura\&no-frame=true\&column=1\&rank=SECRET,SSS,SS,S,AAA,AA,A\&title=Joined2020" alt="Joined2020 trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB\&theme=aura\&no-frame=true\&column=1\&rank=SECRET,SSS,SS,S,AAA,AA,A\&title=Organizations" alt="Organizations trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB\&theme=aura\&no-frame=true\&column=1\&rank=SECRET,SSS,SS,S,AAA,AA,A\&title=Commits" alt="Commits trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB\&theme=aura\&no-frame=true\&column=1\&rank=SECRET,SSS,SS,S,AAA,AA,A\&title=Experience" alt="Experience trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB\&theme=aura\&no-frame=true\&column=1\&rank=SECRET,SSS,SS,S,AAA,AA,A\&title=PullRequest" alt="PullRequest trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB\&theme=aura\&no-frame=true\&column=1\&rank=SECRET,SSS,SS,S,AAA,AA,A\&title=Repositories" alt="Repositories trophy" />
+  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=MultiLanguage" alt="MultiLanguage trophy" />
+  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Joined2020" alt="Joined2020 trophy" />
+  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Organizations" alt="Organizations trophy" />
+  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Commits" alt="Commits trophy" />
+  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Experience" alt="Experience trophy" />
+  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=PullRequest" alt="PullRequest trophy" />
+  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Repositories" alt="Repositories trophy" />
 </p>
 
 </div>
