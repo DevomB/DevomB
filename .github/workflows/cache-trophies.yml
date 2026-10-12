@@ -1,0 +1,82 @@
+# Caches the GitHub trophy images shown at the top of my profile README.
+#
+# Why: the trophies come from my self-hosted github-profile-trophy server on Vercel.
+# Loaded live, every profile visit could wait on a cold start plus GitHub API calls
+# for each of the seven images. Instead, this workflow renders them twice a day and
+# stores the SVGs as static files, so the README loads them instantly from GitHub.
+#
+# Why a separate `output` branch: the images are force-pushed there as one single
+# commit that gets replaced on every refresh, so main's history never fills up with
+# bot commits.
+
+name: Cache trophies
+
+on:
+  schedule:
+    # Noon and midnight Pacific; the timezone handles the PST/PDT switch automatically.
+    - cron: "0 0,12 * * *"
+      timezone: "America/Los_Angeles"
+  workflow_dispatch:
+
+permissions:
+  contents: write # push the output branch
+  actions: write  # keep this schedule from being auto-disabled (last step)
+
+concurrency:
+  group: cache-trophies
+
+jobs:
+  cache:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      BASE_URL: https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A
+      TITLES: MultiLanguage Joined2020 Organizations Commits PullRequest Experience Repositories
+    steps:
+      - name: Render trophies
+        run: |
+          mkdir -p out
+          for title in $TITLES; do
+            file="out/$title.svg"
+            # Retries ride out Vercel cold starts; --fail rejects the server's HTML error pages.
+            curl --fail --silent --show-error --location \
+              --retry 3 --retry-delay 15 --retry-all-errors --max-time 180 \
+              -o "$file" "$BASE_URL&title=$title"
+            # Only accept a real trophy, so a bad response can never replace a good image.
+            # Any failure stops the job before publishing, leaving the last good set live.
+            if ! grep -q "<svg" "$file" || ! grep -q ">$title</text>" "$file"; then
+              echo "::error::$title trophy did not render correctly"
+              exit 1
+            fi
+          done
+
+      - name: Publish to output branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd out
+          git init --quiet --initial-branch=output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit --quiet -m "Update cached trophy images"
+          remote="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+
+          # Skip the push when nothing changed. Identical files give an identical tree hash.
+          if git fetch --quiet --depth=1 "$remote" output 2>/dev/null &&
+             [ "$(git rev-parse HEAD^{tree})" = "$(git rev-parse FETCH_HEAD^{tree})" ]; then
+            echo "Trophies unchanged; nothing to publish."
+            exit 0
+          fi
+
+          # Fresh orphan commit + force push = the branch always holds exactly one commit.
+          git push --quiet --force "$remote" output
+          echo "Published updated trophies."
+
+      - name: Keep schedule alive
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # GitHub disables scheduled workflows in public repos after 60 days without
+        # repo activity. Re-enabling it on every run keeps the refresh going.
+        run: gh api --method PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/cache-trophies.yml/enable"
