@@ -5,6 +5,11 @@
 # for each of the seven images. Instead, this workflow renders them twice a day and
 # stores the SVGs as static files, so the README loads them instantly from GitHub.
 #
+# How: rather than calling github-trophies.devomb.com (Cloudflare's Bot Fight Mode
+# blocks GitHub's runners, and I want it on), the workflow runs my fork of the trophy
+# server right here on the runner and requests the images from localhost. Same code,
+# same output as the live server, and nothing to maintain outside this repo.
+#
 # Why a separate `output` branch: the images are force-pushed there as one single
 # commit that gets replaced on every refresh, so main's history never fills up with
 # bot commits.
@@ -28,20 +33,40 @@ concurrency:
 jobs:
   cache:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 15
     env:
-      BASE_URL: https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A
+      QUERY: username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A
       TITLES: MultiLanguage Joined2020 Organizations Commits PullRequest Experience Repositories
     steps:
+      - name: Check out my trophy server
+        uses: actions/checkout@v4
+        with:
+          repository: DevomB/Github-Trophies
+          path: trophy-server
+
+      - name: Set up Deno
+        uses: denoland/setup-deno@v2
+        with:
+          # Same version the Vercel deployment runs (vercel-deno@3.1.1).
+          deno-version: v1.44.4
+
       - name: Render trophies
+        env:
+          # The workflow's built-in token gives byte-identical output to the live server.
+          GITHUB_TOKEN1: ${{ github.token }}
+          PORT: "8080"
         run: |
+          (cd trophy-server && deno run --allow-all main.ts &)
+          for i in $(seq 1 90); do
+            curl --silent --output /dev/null http://localhost:8080/ && break
+            sleep 1
+          done
+
           mkdir -p out
           for title in $TITLES; do
             file="out/$title.svg"
-            # Retries ride out Vercel cold starts; --fail rejects the server's HTML error pages.
-            curl --fail --silent --show-error --location \
-              --retry 3 --retry-delay 15 --retry-all-errors --max-time 180 \
-              -o "$file" "$BASE_URL&title=$title"
+            curl --fail --silent --show-error --retry 2 --retry-all-errors --max-time 60 \
+              -o "$file" "http://localhost:8080/?$QUERY&title=$title"
             # Only accept a real trophy, so a bad response can never replace a good image.
             # Any failure stops the job before publishing, leaving the last good set live.
             if ! grep -q "<svg" "$file" || ! grep -q ">$title</text>" "$file"; then

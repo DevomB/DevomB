@@ -4,14 +4,16 @@
 
 **Trader · Software Engineer · AI Researcher**
 
+<!-- Trophies are cached SVGs on the `output` branch, re-rendered twice a day by
+     .github/workflows/cache-trophies.yml so they load instantly instead of live. -->
 <p align="center">
-  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=MultiLanguage" alt="MultiLanguage trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Joined2020" alt="Joined2020 trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Organizations" alt="Organizations trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Commits" alt="Commits trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=PullRequest" alt="PullRequest trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Experience" alt="Experience trophy" />
-  <img src="https://github-trophies.devomb.com/?username=DevomB&theme=aura&no-frame=true&column=1&rank=SECRET,SSS,SS,S,AAA,AA,A&title=Repositories" alt="Repositories trophy" />
+  <img src="https://raw.githubusercontent.com/DevomB/DevomB/output/MultiLanguage.svg" alt="MultiLanguage trophy" />
+  <img src="https://raw.githubusercontent.com/DevomB/DevomB/output/Joined2020.svg" alt="Joined2020 trophy" />
+  <img src="https://raw.githubusercontent.com/DevomB/DevomB/output/Organizations.svg" alt="Organizations trophy" />
+  <img src="https://raw.githubusercontent.com/DevomB/DevomB/output/Commits.svg" alt="Commits trophy" />
+  <img src="https://raw.githubusercontent.com/DevomB/DevomB/output/PullRequest.svg" alt="PullRequest trophy" />
+  <img src="https://raw.githubusercontent.com/DevomB/DevomB/output/Experience.svg" alt="Experience trophy" />
+  <img src="https://raw.githubusercontent.com/DevomB/DevomB/output/Repositories.svg" alt="Repositories trophy" />
 </p>
 
 </div>
