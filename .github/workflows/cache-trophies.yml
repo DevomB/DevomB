@@ -18,8 +18,10 @@ name: Cache trophies
 
 on:
   schedule:
-    # Noon and midnight Pacific; the timezone handles the PST/PDT switch automatically.
-    - cron: "0 0,12 * * *"
+    # 12:10 AM and 12:10 PM Pacific; the timezone handles the PST/PDT switch automatically.
+    # Not right on the hour: GitHub's scheduler is busiest at :00 and can delay or drop
+    # runs then (the first midnight run was skipped), so a few minutes past is more reliable.
+    - cron: "10 0,12 * * *"
       timezone: "America/Los_Angeles"
   workflow_dispatch:
 
